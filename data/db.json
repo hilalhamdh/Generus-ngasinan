@@ -1,0 +1,26 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "title" : "Festival Anak Sholeh",
+            "content" : "Alhamdulillah, Dalam acara yang diselenggarakan oleh Desa Timur 2, Caberawit ngasinan tampil sangat antusias dengan  berhasil menyabet 3 piala pada perlombaan tersebut. adapun juara yang di dapat adalah Juara 1 Lomba Murottal Alquran, mewarnai kategori Kelas 4-6 Sd.",
+            "image" : "../src/assets/images/56.jpg"
+
+        },
+        {
+            "id" : 2,
+            "title" : "Andita Juara 1 Murottal",
+            "content" : "Asyikk Mba Dita juara 1 Murottal, sebuah kebanggan bagi diri saya sendiri, Saya tau bacaan dia bagaiman sejak pertama kali saya datang, sangat jelek ngga sih wkwk. Setelah saya tau bacaannya kurang bagus pernah suatu ketika dengan paksaan saya buat dia membaca satu halaman, mba Ditanya malah nangisss hadehhh cupuuuuu!. Dan pada akhirnya dengan paksaan itu bacaan mba dita jadi lancarrrr. alhamdulillah.",
+            "image" : "../src/assets/images/53.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Talita & Izza Juara Mewarnai",
+            "content" : "Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan, Alhamdulillah Acara Bazar kali ini berjalan dengan lancar dan semua makanan serta minuman terjual ludesss. Adapun tujuan dari penyelanggaraan ini bagi kami adalah untuk mempererat kekompakan dan kesemangatan remaja Ngasinan. Semoga kedepannya semakin kompak dan rukun.Aaamiiinnn...",
+            "image" :"../src/assets/images/talita.jpg"
+
+        }
+
+    ]
+}
+
