@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Cardpages from "./Cardpages";
 import Berita from "./Berita";
+import About from "./About";
 
 // import CarouselPages from "../component/Carouselpages";
 
@@ -159,6 +160,8 @@ function Homepages() {
           </div>
         </div>
       </div>
+
+      <About />
 
       <div className="mainpage pt-5 bg-gradient-to-r from-rose-200 to-sky-300 to-90% ">
         <div className="container mx-auto px-4 py-2 ">
