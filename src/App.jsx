@@ -6,7 +6,10 @@ import Videopages from "./pages/Videopages";
 import Caberawitpages from "./pages/Caberawitpages";
 import Mainpages from "./component/Mainpages";
 import Caberawitkg from "./pages/Caberawitkg";
-import Berita from "./pages/Berita";
+
+import Berita1 from "./berita/Berita1";
+import AboutUs from "./berita/AboutUs";
+import Berita2 from "./berita/berita2";
 
 function App() {
   return (
@@ -17,8 +20,10 @@ function App() {
         <Route path="/caberawitkg" element={<Caberawitkg />} />
         <Route path="/imagepages" element={<Imagepages />} />
         <Route path="/videopages" element={<Videopages />} />
-        <Route path="/berita" element={<Berita />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/caberawitpages" element={<Caberawitpages />} />
+        <Route path="/berita1" element={<Berita1 />} />
+        <Route path="/berita2" element={<Berita2 />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,6 @@
 // import Home from "../assets/images/5.jpg";
 import Navbar from "../component/Navbar";
-import { Link } from "react-router-dom";
+
 import Footer from "../component/Footer";
 import Contactpages from "./Contactpages";
 import Studio from "/images/studio.png";
@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Cardpages from "./Cardpages";
-import Berita from "./Berita";
 import About from "./About";
 
 // import CarouselPages from "../component/Carouselpages";
@@ -16,34 +15,17 @@ import About from "./About";
 const cartImage = [
   {
     id: 1,
-    image: "/images/56.jpg",
-    title: "Festival Anak Sholeh",
-    description: `Alhamdulillah, Dalam acara yang diselenggarakan oleh Desa
-                  Timur 2,Caberawit ngasinan tampil sangat antusias dengan
-                  berhasil menyabet 3 piala pada perlombaan tersebut. adapun
-                  juara yang di dapat adalah Juara 1 Lomba Murottal Alquran,
-                  Juara 1 Lomba Mewarnai kategori Paud dan Juara 2 Lomba
-                  mewarnai kategori Kelas 4-6 Sd`,
+    image: "/images/53.jpg",
+    title: "Andita Juara 1 Murottal",
+    description: ` Festival anak sholeh merupakan ajang 1 kali dalam setahun yang
+              diadakan oleh  KMM Desa Timur II Membuat antusias caberawit sangat
+              tinggi`,
     info: "Baca Selengkapnya..",
+    link: "/berita2",
     calender: "Minggu, 3 November 2024",
   },
   {
     id: 2,
-    image: "/images/53.jpg",
-    title: "Andita Juara 1 Murottal",
-    description: ` Asyikk Mba Dita juara 1 Murottal, sebuah kebanggan bagi diri
-                    saya sendiri, Saya tau bacaan dia bagaiman sejak pertama
-                    kali saya datang, sangat jelek ngga sih wkwk. Setelah saya
-                    tau bacaannya kurang bagus pernah suatu ketika dengan
-                    paksaan saya buat dia membaca satu halaman, mba Ditanya
-                    malah nangisss hadehhh cupuuuuu!. Dan pada akhirnya dengan
-                    paksaan itu bacaan mba dita jadi lancarrrr. alhamdulillah.`,
-    info: "Baca Selengkapnya..",
-    link: "https://github.com/login",
-    calender: "Minggu, 3 November 2024",
-  },
-  {
-    id: 3,
     image: "/images/talita.jpg",
     title: "Talita & Izza Juara Mewarnai",
     description: `Yeiiii, mba Talita dan mba Izza juga mendapatkan juara 1 & 2 Mewarnai, sungguh luar biasa, ngga sia-sia selama sebulan ngajinya mewarnai tokk wkkwkw. `,
@@ -52,7 +34,7 @@ const cartImage = [
     calender: "Minggu, 3 November 2024",
   },
   {
-    id: 4,
+    id: 3,
     image: "/images/bazar.jpg",
     title: "Bazar Remaja Ngasinan",
     description: ` Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan,
@@ -63,26 +45,9 @@ const cartImage = [
                     Semoga kedepannya semakin kompak dan rukun.Aaamiiinnn...`,
     calender: "Minggu, 3 November 2024",
   },
+
   {
-    id: 5,
-    image: "/images/lebaran.jpg",
-    title: "Hari Raya Idhul Fitri 2024",
-    description: ` Setelah melaksanakan sholad ied, Generus ngasinan mengadakan
-                    sesi foto bersama, ternyata jumlahnya sangat banyak yaaaa,
-                    semoga selalu kompak dan lancar ngajinya.`,
-    calender: "10 April 2024 ",
-  },
-  {
-    id: 6,
-    image: "/images/32.jpg",
-    title: "Berbuka Puasa Bersama",
-    description: `Alhamdulillah Puasa terasa lega, ketika melihat menu buka
-                    puasa pada hari itu, menunya diantaranya Nasi Pecel Lele
-                    dengan sambel yang pedas, dan minumannya es jeruk.`,
-    calender: " 04 April 2024",
-  },
-  {
-    id: 7,
+    id: 4,
     image: "/images/4.jpg",
     title: "Lomba 17 Agustus 2024",
     description: `  Untuk memeriahkan hari kemerdekaan indonesia, kami dari
@@ -92,21 +57,13 @@ const cartImage = [
                     lomba memiliki hadiah yang spesiallah pokoknya.`,
     calender: "17 Agustus 2024",
   },
-  {
-    id: 8,
-    image: "/images/1.jpg",
-    title: "Liburan Ke Intan Pari",
-    description: `Kegiatan ini merupakan agenda rutin tahunan caberawit, biar
-                    ngga bosen ngaji ya kan Hehe, Rasanya menyenangkan,
-                    menggembirakan dan penuh canda tawa para caberawit.`,
-    calender: "02 Maret 2024",
-  },
 ];
 
 function Homepages() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <Navbar />
@@ -185,7 +142,7 @@ function Homepages() {
                   <div className="font-bold text-xl mb-2">
                     {cartImage.title}
                   </div>
-                  <p className="text-gray-700 text-base text-justify line-clamp-5  ">
+                  <p className="text-gray-700 text-base text-justify line-clamp-3  ">
                     {cartImage.description}
                   </p>
                 </div>
