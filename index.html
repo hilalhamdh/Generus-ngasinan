@@ -2,7 +2,7 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="public/images/logo.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caberawit Ngasinan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,9 +15,12 @@
   </head>
   <body class="bg-slate-100" id="home">
     <div id="root"></div>
-    <script type="text/jsx" src="src/main.jsx"></script>
+    <script type="module" src="src/main.jsx"></script>
 
-   </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
