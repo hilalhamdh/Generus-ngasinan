@@ -1,9 +1,9 @@
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
-import Talita from "/images/talita.jpg";
+import Bazar from "/images/bazar.jpg";
 import { useNavigate } from "react-router-dom";
 
-const Berita1 = () => {
+const Berita3 = () => {
   let navigate = useNavigate();
   return (
     <>
@@ -12,23 +12,26 @@ const Berita1 = () => {
         <div className="container mx-auto px-4 ">
           <div className="flex flex-col bg-[url(/images/bg.jpg)] md:mx-60 rounded-xl ">
             <h3 className=" font-semibold text-center text-3xl pb-4 pt-8">
-              Talita & Izza Juara Lomba Mewarnai
+              Bazar Remaja Ngasinan
             </h3>
             <img
-              src={Talita}
+              src={Bazar}
               alt="dita"
               className="size-11/12 md:size-10/12 h-[400px] rounded-md md:h-[500px] mx-auto pt-1"
             />
             <p className=" text-justify p-2 pt-4 md:p-6 text-xl ">
-              Mba Talita dan Mba Izza juga mendapatkan juara Mewarnai pada
-              kategori paud dan sd kelas 5, mereka semangat dan antusias untuk
-              mengikuti ajang lomba tahunan ini. Mba Talita dan mba Izza
-              mendapatkan juara 1 & 2 Mewarnai, sungguh luar biasa, tidak
-              sia-sia selama sebulan ngajinya hanya fokus mewarnai.
+              Remaja kelompok Ngasinan mengikuti kegiatan bazar yang di
+              selenggarakan oleh kmm desa timur II, Dengan kekompakan dan
+              kesemangatan remaja kelompok Ngasinan, Alhamdulillah Acara Bazar
+              kali ini berjalan dengan lancar dan semua makanan serta minuman
+              terjual ludesss.
+              <br></br>
+              <br />
+              Adapun tujuan dari penyelanggaraan ini bagi kami adalah untuk
+              mempererat kekompakan dan kesemangatan remaja Ngasinan. Semoga
+              kedepannya semakin kompak dan rukun.Aaamiiinnn...
               <br />
               <br />
-              Semoga diajang berikutnya bisa mendapat hasil yang lebih memuaskan
-              lagi..aaamiiiin
             </p>
             <button
               className="bg-cyan-400 mx-auto w-20 mb-2 rounded text-center"
@@ -45,4 +48,4 @@ const Berita1 = () => {
     </>
   );
 };
-export default Berita1;
+export default Berita3;

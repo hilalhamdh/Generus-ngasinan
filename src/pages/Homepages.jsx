@@ -28,9 +28,10 @@ const cartImage = [
     id: 2,
     image: "/images/talita.jpg",
     title: "Talita & Izza Juara Mewarnai",
-    description: `Yeiiii, mba Talita dan mba Izza juga mendapatkan juara 1 & 2 Mewarnai, sungguh luar biasa, ngga sia-sia selama sebulan ngajinya mewarnai tokk wkkwkw. `,
+    description: `Mba Talita dan Mba Izza juga mendapatkan juara Mewarnai pada kategori paud dan sd kelas 5, 
+    mereka semangat dan antusias untuk mengikuti ajang lomba tahunan ini `,
     info: "Baca Selengkapnya..",
-    link: "./imagepages",
+    link: "/berita1",
     calender: "Minggu, 3 November 2024",
   },
   {
@@ -43,6 +44,8 @@ const cartImage = [
                     tujuan dari penyelanggaraan ini bagi kami adalah untuk
                     mempererat kekompakan dan kesemangatan remaja Ngasinan.
                     Semoga kedepannya semakin kompak dan rukun.Aaamiiinnn...`,
+    info: "Baca Selengkapnya..",
+    link: "/berita3",
     calender: "Minggu, 3 November 2024",
   },
 
