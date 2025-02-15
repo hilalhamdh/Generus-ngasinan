@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Cardpages from "./Cardpages";
 import About from "./About";
+import Berita1 from "../berita/Berita1";
+import Berita2 from "../berita/Berita2";
 
 // import CarouselPages from "../component/Carouselpages";
 
@@ -21,7 +23,7 @@ const cartImage = [
               diadakan oleh  KMM Desa Timur II Membuat antusias caberawit sangat
               tinggi`,
     info: "Baca Selengkapnya..",
-    link: "/berita2",
+    link: { Berita2 },
     calender: "Minggu, 3 November 2024",
   },
   {
@@ -31,7 +33,7 @@ const cartImage = [
     description: `Mba Talita dan Mba Izza juga mendapatkan juara Mewarnai pada kategori paud dan sd kelas 5, 
     mereka semangat dan antusias untuk mengikuti ajang lomba tahunan ini `,
     info: "Baca Selengkapnya..",
-    link: "/berita1",
+    link: { Berita1 },
     calender: "Minggu, 3 November 2024",
   },
   {
