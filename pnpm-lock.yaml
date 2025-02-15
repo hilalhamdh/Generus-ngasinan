@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@fortawesome/fontawesome-svg-core':
-        specifier: ^6.6.0
+        specifier: ^6.7.2
         version: 6.7.2
       '@fortawesome/react-fontawesome':
         specifier: ^0.2.2
@@ -24,7 +24,7 @@ importers:
         specifier: 3.0.0-beta.6
         version: 3.0.0-beta.6
       axios:
-        specifier: ^1.7.7
+        specifier: ^1.7.9
         version: 1.7.9
       flowbite-react:
         specifier: ^0.10.2
@@ -33,13 +33,13 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0
       nodemon:
-        specifier: ^3.1.7
+        specifier: ^3.1.9
         version: 3.1.9
       react:
         specifier: ^18.3.1
         version: 18.3.1
       react-bootstrap:
-        specifier: ^2.10.5
+        specifier: ^2.10.9
         version: 2.10.9(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
@@ -48,59 +48,59 @@ importers:
         specifier: ^2.16.0
         version: 2.16.0(react@18.3.1)
       react-router-dom:
-        specifier: ^6.27.0
+        specifier: ^6.29.0
         version: 6.29.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-social-media-embed:
         specifier: ^2.5.17
         version: 2.5.17(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       remixicon:
-        specifier: ^4.4.0
+        specifier: ^4.6.0
         version: 4.6.0
       sass:
         specifier: ^1.85.0
         version: 1.85.0
       sass-embedded:
-        specifier: ^1.81.0
+        specifier: ^1.85.0
         version: 1.85.0
     devDependencies:
       '@eslint/js':
-        specifier: ^9.13.0
+        specifier: ^9.20.0
         version: 9.20.0
       '@types/react':
-        specifier: ^18.3.11
+        specifier: ^18.3.18
         version: 18.3.18
       '@types/react-dom':
-        specifier: ^18.3.1
+        specifier: ^18.3.5
         version: 18.3.5(@types/react@18.3.18)
       '@vitejs/plugin-react':
-        specifier: ^4.3.3
+        specifier: ^4.3.4
         version: 4.3.4(vite@5.4.14(sass-embedded@1.85.0)(sass@1.85.0))
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.5.2)
       eslint:
-        specifier: ^9.13.0
+        specifier: ^9.20.1
         version: 9.20.1(jiti@1.21.7)
       eslint-plugin-react:
-        specifier: ^7.37.1
+        specifier: ^7.37.4
         version: 7.37.4(eslint@9.20.1(jiti@1.21.7))
       eslint-plugin-react-hooks:
-        specifier: ^5.0.0
+        specifier: ^5.1.0
         version: 5.1.0(eslint@9.20.1(jiti@1.21.7))
       eslint-plugin-react-refresh:
-        specifier: ^0.4.13
+        specifier: ^0.4.19
         version: 0.4.19(eslint@9.20.1(jiti@1.21.7))
       globals:
-        specifier: ^15.11.0
+        specifier: ^15.15.0
         version: 15.15.0
       postcss:
-        specifier: ^8.4.47
+        specifier: ^8.5.2
         version: 8.5.2
       tailwindcss:
-        specifier: ^3.4.14
+        specifier: ^3.4.17
         version: 3.4.17
       vite:
-        specifier: ^5.4.9
+        specifier: ^5.4.14
         version: 5.4.14(sass-embedded@1.85.0)(sass@1.85.0)
 
 packages:
@@ -383,6 +383,9 @@ packages:
 
   '@floating-ui/core@1.6.6':
     resolution: {integrity: sha512-Vkvsw6EcpMHjvZZdMkSY+djMGFbt7CRssW99Ne8tar2WLnZ/l3dbxeTShbLQj+/s35h+Qb4cmnob+EzwtjrXGQ==}
+
+  '@floating-ui/core@1.6.9':
+    resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==}
 
   '@floating-ui/dom@1.6.13':
     resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==}
@@ -3304,9 +3307,13 @@ snapshots:
     dependencies:
       '@floating-ui/utils': 0.2.9
 
+  '@floating-ui/core@1.6.9':
+    dependencies:
+      '@floating-ui/utils': 0.2.9
+
   '@floating-ui/dom@1.6.13':
     dependencies:
-      '@floating-ui/core': 1.6.6
+      '@floating-ui/core': 1.6.9
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/react-dom@1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
