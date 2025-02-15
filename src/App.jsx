@@ -9,7 +9,7 @@ import Caberawitkg from "./pages/Caberawitkg";
 
 import Berita1 from "./berita/Berita1";
 import AboutUs from "./berita/AboutUs";
-import Berita2 from "./berita/berita2";
+import Berita2 from "./berita/Berita2";
 import Berita3 from "./berita/Berita3";
 
 function App() {
