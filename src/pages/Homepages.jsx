@@ -1,6 +1,5 @@
 // import Home from "../assets/images/5.jpg";
 import Navbar from "../component/Navbar";
-
 import Footer from "../component/Footer";
 import Contactpages from "./Contactpages";
 import Studio from "/images/studio.png";
@@ -9,33 +8,13 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Cardpages from "./Cardpages";
 import About from "./About";
-import Berita1 from "../berita/Berita1";
-import Berita2 from "../berita/Berita2";
+import Dita from "/images/53.jpg";
+import { useNavigate } from "react-router-dom";
+import Talita from "/images/talita.jpg";
 
 // import CarouselPages from "../component/Carouselpages";
 
 const cartImage = [
-  {
-    id: 1,
-    image: "/images/53.jpg",
-    title: "Andita Juara 1 Murottal",
-    description: ` Festival anak sholeh merupakan ajang 1 kali dalam setahun yang
-              diadakan oleh  KMM Desa Timur II Membuat antusias caberawit sangat
-              tinggi`,
-    info: "Baca Selengkapnya..",
-    link: { Berita2 },
-    calender: "Minggu, 3 November 2024",
-  },
-  {
-    id: 2,
-    image: "/images/talita.jpg",
-    title: "Talita & Izza Juara Mewarnai",
-    description: `Mba Talita dan Mba Izza juga mendapatkan juara Mewarnai pada kategori paud dan sd kelas 5, 
-    mereka semangat dan antusias untuk mengikuti ajang lomba tahunan ini `,
-    info: "Baca Selengkapnya..",
-    link: { Berita1 },
-    calender: "Minggu, 3 November 2024",
-  },
   {
     id: 3,
     image: "/images/bazar.jpg",
@@ -69,6 +48,7 @@ function Homepages() {
     AOS.init();
   }, []);
 
+  let navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -131,35 +111,72 @@ function Homepages() {
             Kabar Berita
           </h1>
           <div className="main grid md:grid-cols-4 grid-cols-1  items-center justify-items-center gap-10 pt-10 ">
-            {cartImage.map((cartImage) => (
-              <div
-                className="max-w-sm rounded overflow-hidden shadow-lg bg-white"
-                key={cartImage.id}
-              >
-                <img
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="top-bottom"
-                  className="w-full h-[300px]"
-                  src={cartImage.image}
-                />
+            {/* {cartImage.map((cartImage) => ( */}
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={Dita}
+              />
 
-                <div className="px-6 py-4 ">
-                  <div className="font-bold text-xl mb-2">
-                    {cartImage.title}
-                  </div>
-                  <p className="text-gray-700 text-base text-justify line-clamp-3  ">
-                    {cartImage.description}
-                  </p>
+              <div className="px-6 py-4 ">
+                <div className="font-bold text-xl mb-2">
+                  Andita Juara 1 Murottal Alquran
                 </div>
-                <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
-                  <a href={cartImage.link}>{cartImage.info}</a>
-                </div>
-                <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
-                  <i className="ri-calendar-line mr-2"></i>
-                  {cartImage.calender}
-                </div>
+                <p className="text-gray-700 text-base text-justify line-clamp-3  ">
+                  Festival anak sholeh merupakan ajang 1 kali dalam setahun yang
+                  diadakan oleh KMM Desa Timur II Membuat antusias caberawit
+                  sangat tinggi
+                </p>
               </div>
-            ))}
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+                <a
+                  href
+                  className="hover:text-green-300"
+                  onClick={() => navigate("/berita2")}
+                >
+                  Baca Selengkapnya
+                </a>
+              </div>
+              <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
+                <i className="ri-calendar-line mr-2"></i>
+                Minggu, 3 November 2024
+              </div>
+            </div>
+
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={Talita}
+              />
+
+              <div className="px-6 py-4 ">
+                <div className="font-bold text-xl mb-2">
+                  Talita & Izza Juara Lomba Mewarnai
+                </div>
+                <p className="text-gray-700 text-base text-justify line-clamp-3  ">
+                  Mba Talita dan Mba Izza juga mendapatkan juara Mewarnai pada
+                  kategori paud dan sd kelas 5, mereka semangat dan antusias
+                  untuk mengikuti ajang lomba tahunan ini
+                </p>
+              </div>
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+                <a
+                  href
+                  className="hover:text-green-300"
+                  onClick={() => navigate("/berita1")}
+                >
+                  Baca Selengkapnya
+                </a>
+              </div>
+              <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
+                <i className="ri-calendar-line mr-2"></i>
+                Minggu, 3 November 2024
+              </div>
+            </div>
           </div>
         </div>
         <Contactpages />
