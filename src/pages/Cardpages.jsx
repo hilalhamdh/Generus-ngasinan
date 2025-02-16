@@ -1,5 +1,3 @@
-import Hilal from "/images/A.jpg";
-
 const Cardpages = () => {
   return (
     <>
@@ -9,6 +7,9 @@ const Cardpages = () => {
             Pesan Generus
           </h1>
         </div>
+        <p className="text-center justify-center items-center">
+          Coming soon.....
+        </p>
       </div>
     </>
   );
