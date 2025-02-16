@@ -12,7 +12,6 @@ import Dita from "/images/53.jpg";
 import { useNavigate } from "react-router-dom";
 import Talita from "/images/talita.jpg";
 import Bazar from "/images/bazar.jpg";
-import Umbul from "/images/umbul.png";
 
 // import CarouselPages from "../compo/Carouselpages";
 
@@ -206,7 +205,7 @@ function Homepages() {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
-                src={Umbul}
+                src=""
               />
 
               <div className="px-6 py-4 ">
