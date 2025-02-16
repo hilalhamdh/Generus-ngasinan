@@ -174,7 +174,7 @@ function Homepages() {
 
               <div className="px-6 py-4 ">
                 <div className="font-bold text-xl mb-2">
-                  Remaja Ngasinan Berjualan Mie Pedes Di Bazar
+                  Remaja Ngasinan Jualan Mie Gacoan Diacara Bazar
                 </div>
                 <p className="text-gray-700 text-base text-justify line-clamp-3  ">
                   Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan,
