@@ -11,6 +11,7 @@ import Berita1 from "./berita/Berita1";
 import AboutUs from "./berita/AboutUs";
 import Berita2 from "./berita/Berita2";
 import Berita3 from "./berita/Berita3";
+import Berita4 from "./berita/Berita4";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/berita1" element={<Berita1 />} />
         <Route path="/berita2" element={<Berita2 />} />
         <Route path="/berita3" element={<Berita3 />} />
+        <Route path="/berita4" element={<Berita4 />} />
       </Routes>
     </Router>
   );

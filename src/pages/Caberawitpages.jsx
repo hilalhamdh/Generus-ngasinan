@@ -75,6 +75,12 @@ const foto = [
     name: "Atira",
     kelas: "Caberawit",
   },
+  {
+    id: 11,
+    image: "",
+    name: "Atira",
+    kelas: "Caberawit",
+  },
 ];
 
 const Caberawitpages = () => {

@@ -12,8 +12,9 @@ import Dita from "/images/53.jpg";
 import { useNavigate } from "react-router-dom";
 import Talita from "/images/talita.jpg";
 import Bazar from "/images/bazar.jpg";
+import Umbul from "/images/umbul.png";
 
-// import CarouselPages from "../component/Carouselpages";
+// import CarouselPages from "../compo/Carouselpages";
 
 const cartImage = [
   {
@@ -197,6 +198,40 @@ function Homepages() {
               <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
                 <i className="ri-calendar-line mr-2"></i>
                 Minggu, 3 November 2024
+              </div>
+            </div>
+
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={Umbul}
+              />
+
+              <div className="px-6 py-4 ">
+                <div className="font-bold text-xl mb-2">
+                  Liburan Ke Umbul Pelem
+                </div>
+                <p className="text-gray-700 text-base text-justify line-clamp-3  ">
+                  Matahari terbenam, tapi kenangan tak akan pernah pudar``
+                  Itulah yang terjadi pada kita sekarang, walaupun matahari
+                  terbenam digantikan oleh rembulan, tapi kenangan-kenangan
+                  dihidup ini tidak akan pudar
+                </p>
+              </div>
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+                <a
+                  href
+                  className="hover:text-green-300"
+                  onClick={() => navigate("/berita4")}
+                >
+                  Baca Selengkapnya
+                </a>
+              </div>
+              <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
+                <i className="ri-calendar-line mr-2"></i>
+                Sabtu, 1 Februari 2025
               </div>
             </div>
           </div>
