@@ -11,25 +11,11 @@ import About from "./About";
 import Dita from "/images/53.jpg";
 import { useNavigate } from "react-router-dom";
 import Talita from "/images/talita.jpg";
+import Bazar from "/images/bazar.jpg";
 
 // import CarouselPages from "../component/Carouselpages";
 
 const cartImage = [
-  {
-    id: 3,
-    image: "/images/bazar.jpg",
-    title: "Bazar Remaja Ngasinan",
-    description: ` Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan,
-                    Alhamdulillah Acara Bazar kali ini berjalan dengan lancar
-                    dan semua makanan serta minuman terjual ludesss. Adapun
-                    tujuan dari penyelanggaraan ini bagi kami adalah untuk
-                    mempererat kekompakan dan kesemangatan remaja Ngasinan.
-                    Semoga kedepannya semakin kompak dan rukun.Aaamiiinnn...`,
-    info: "Baca Selengkapnya..",
-    link: "/berita3",
-    calender: "Minggu, 3 November 2024",
-  },
-
   {
     id: 4,
     image: "/images/4.jpg",
@@ -177,7 +163,44 @@ function Homepages() {
                 Minggu, 3 November 2024
               </div>
             </div>
+
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={Bazar}
+              />
+
+              <div className="px-6 py-4 ">
+                <div className="font-bold text-xl mb-2">
+                  Remaja Ngasinan Berjualan Mie Pedes Di Bazar
+                </div>
+                <p className="text-gray-700 text-base text-justify line-clamp-3  ">
+                  Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan,
+                  Alhamdulillah Acara Bazar kali ini berjalan dengan lancar dan
+                  semua makanan serta minuman terjual ludesss. Adapun tujuan
+                  dari penyelanggaraan ini bagi kami adalah untuk mempererat
+                  kekompakan dan kesemangatan remaja Ngasinan. Semoga kedepannya
+                  semakin kompak dan rukun.Aaamiiinnn...
+                </p>
+              </div>
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+                <a
+                  href
+                  className="hover:text-green-300"
+                  onClick={() => navigate("/berita3")}
+                >
+                  Baca Selengkapnya
+                </a>
+              </div>
+              <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
+                <i className="ri-calendar-line mr-2"></i>
+                Minggu, 3 November 2024
+              </div>
+            </div>
           </div>
+          ,
         </div>
         <Contactpages />
         <Cardpages />
