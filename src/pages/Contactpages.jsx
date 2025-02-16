@@ -5,7 +5,7 @@ function Contactpages() {
         <h1 className="text-3xl font-semibold justify-items-center items-center text-center pb-3 shadow-2xl shadow-sky-200  ">
           Halaman Contact
         </h1>
-        <div className="p-3 items-center justify-items-center grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7 ">
+        <div className="p-2 items-center justify-items-center grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7 ">
           <div className="box w-mx-auto h-[350px] ">
             <div
               data-aos="fade-up"
