@@ -9,25 +9,80 @@ import Festival from "/images/56.jpg";
 import Dita from "/images/53.jpg";
 import Talita from "/images/talita.jpg";
 import Footer from "../component/Footer";
+import Caberawit from "/images/cab.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 // import CarouselPages from "../component/Carouselpages";
 
 function Caberawitkg() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />
       {/* <CarouselPages /> */}
 
-      <div className="caberawitpage pt-32 bg-gradient-to-r from-rose-100 to-sky-300 to-90% ">
+      <div className="caberawitpage  bg-gradient-to-r from-rose-100 to-sky-300 to-90% ">
         <div className="container mx-auto px-4 py-2 ">
-          <div className=" md:w-[1505px] w-[380px] md:h-24 h-16 shadow-white rounded-lg ">
-            <h1 className="items-center md:pt-9 pb-4 pt-3 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">
-              CABERAWIT NGASINAN
+          <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
+            <div className="box">
+              <h1
+                data-aos="fade-down"
+                data-aos-duration="2000"
+                className="lg:text-5xl/tight text-2xl font-bold mb-2 text-center shadow-sm shadow-red-200 "
+              >
+                CABERAWIT NGASINAN
+              </h1>
+              <p
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="200"
+                className="py-2 text-sm font-semibold"
+              >
+                Hai Caberawit Ngasinan
+              </p>
+              <p
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="200"
+                className="text-base text-justify mb-2  "
+              >
+                Halaman ini menceritakan tentang kegiatan-kegiatan apa saja yang
+                telah dilakukan oleh Caberawit Ngasinan selama tahun 2024-2025
+              </p>
+              {/* <a
+                          href="#"
+                          className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full"
+                        >
+                          Scrolll kebawah yaa!!
+                          <i className="ri-eye-line ms-1"></i>
+                        </a> */}
+            </div>
+            <div className="box" data-aos="fade-down" data-aos-duration="2000">
+              <img
+                src={Caberawit}
+                // data-aos="zoom-in"
+                // data-aos-duration="2000"
+                alt="Halaman Homepage"
+                className="md:w-full w-[400px]  mx-auto md:m-0  rounded-xl  shadow-lg shadow-white  h-[450px] md:h-[550px] "
+              />
+            </div>
+          </div>
+
+          <div className=" md:w-[1505px] w-[380px] md:h-24 h-16 mt-10 shadow-white rounded-lg ">
+            <h1 className="items-center md:pt-9  pt-3 font-semibold text-center md:text-2xl text-lg shadow-md shadow-red-200  ">
+              KEGIATAN CABERAWIT
             </h1>
           </div>
-          <div className="main grid md:grid-cols-4 grid-cols-1 items-center gap-10 pt-10">
+
+          <div className="main grid md:grid-cols-4 grid-cols-1 items-center gap-10 ">
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Festival}
                 alt="Lebaran Bersama Generus"
@@ -52,6 +107,8 @@ function Caberawitkg() {
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Dita}
                 alt="Lebaran Bersama Generus"
@@ -77,6 +134,8 @@ function Caberawitkg() {
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Talita}
                 alt="Lebaran Bersama Generus"
@@ -102,6 +161,8 @@ function Caberawitkg() {
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Mewarnai}
                 alt="Sunset in the mountains"
@@ -127,6 +188,8 @@ function Caberawitkg() {
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Foto4}
                 alt="Sunset in the mountains"
@@ -153,6 +216,8 @@ function Caberawitkg() {
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
                 src={Foto7}
                 alt="Sunset in the mountains"
@@ -177,7 +242,12 @@ function Caberawitkg() {
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-              <img className="w-full h-[300px]" src={Rongsoan} />
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={Rongsoan}
+              />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Ngeronsok Sampah</div>
                 <p className="text-gray-700 text-base text-justify line-clamp-5 hover:line-clamp-none ">
@@ -195,7 +265,12 @@ function Caberawitkg() {
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-              <img className="w-full h-[300px]" src={foto1} />
+              <img
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                className="w-full h-[300px]"
+                src={foto1}
+              />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">
                   Liburan Ke Intan Pari

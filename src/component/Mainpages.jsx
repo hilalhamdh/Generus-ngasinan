@@ -17,16 +17,16 @@ function Mainpages() {
     <>
       <Navbar />
 
-      <div className="homepage pb-5 bg-gradient-to-r from-rose-400 to-sky-300 to-90%">
+      <div className="homepage pb-5 bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
         <div className="container mx-auto px-4">
           <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
             <div className="box">
               <h1
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="lg:text-5xl/tight text-2xl font-bold mb-2 text-center "
+                className="lg:text-5xl/tight text-2xl font-bold mb-2 text-center shadow-sm shadow-red-200 "
               >
-                Remaja Ngasinan
+                REMAJA NGASINAN
               </h1>
               <p
                 data-aos="fade-right"
