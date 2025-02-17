@@ -25,7 +25,7 @@ function Navbar() {
     });
   });
 
-  let scrollActive = scroll ? "py-6 bg-white shadow " : "py-4";
+  let scrollActive = scroll ? "py-1 bg-white shadow " : "py-4";
   return (
     <>
       <div className={`navbar fixed w-full translate-all ${scrollActive}`}>
@@ -108,7 +108,7 @@ function Navbar() {
             <div className="social flex  items-center gap-2">
               <a
                 href="https://www.instagram.com/generusngasinan_/profilecard/?igsh=c2lkYjQ2MmcwNWx3"
-                className=" bg-sky-400 text-center w-[135px] py-2 rounded-full text-white font-bold hover:bg-sky-400 translate-all"
+                className=" bg-sky-400 text-center w-[120px] py-1 rounded-lg text-white font-semibold hover:bg-sky-400 translate-all"
               >
                 Social Media
               </a>

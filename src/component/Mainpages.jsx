@@ -20,20 +20,11 @@ function Mainpages() {
       <div className="homepage pb-5 bg-gradient-to-r from-rose-400 to-sky-300 to-90%">
         <div className="container mx-auto px-4">
           <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
-            <div className="box" data-aos="fade-down" data-aos-duration="2000">
-              <img
-                src={Bazar}
-                // data-aos="zoom-in"
-                // data-aos-duration="2000"
-                alt="Halaman Homepage"
-                className="md:w-full w-[400px]  mx-auto md:m-0  rounded-xl  shadow-lg shadow-white  h-[450px] md:h-[550px] "
-              />
-            </div>
             <div className="box">
               <h1
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="lg:text-5xl/tight text-3xl font-medium mb-6 "
+                className="lg:text-5xl/tight text-2xl font-bold mb-2 text-center "
               >
                 Remaja Ngasinan
               </h1>
@@ -41,27 +32,36 @@ function Mainpages() {
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 data-aos-delay="200"
-                className="py-3 text-sm font-semibold"
+                className="py-2 text-sm font-semibold"
               >
-                Hiii,Ini kegiatan kami selama priode 2024 - 2025
+                Hiii Remaja Ngasinan
               </p>
               <p
                 data-aos="fade-right"
                 data-aos-duration="2000"
                 data-aos-delay="200"
-                className="text-base text-justify mb-7  "
+                className="text-base text-justify mb-2  "
               >
                 Halaman ini menceritakan tentang kegiatan-kegiatan apa saja yang
                 telah dilakukan oleh remaja Ngasinan selama priode
                 2024-2025!!!!....
               </p>
-              <a
+              {/* <a
                 href="#"
                 className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full"
               >
                 Scrolll kebawah yaa!!
                 <i className="ri-eye-line ms-1"></i>
-              </a>
+              </a> */}
+            </div>
+            <div className="box" data-aos="fade-down" data-aos-duration="2000">
+              <img
+                src={Bazarr}
+                // data-aos="zoom-in"
+                // data-aos-duration="2000"
+                alt="Halaman Homepage"
+                className="md:w-full w-[400px]  mx-auto md:m-0  rounded-xl  shadow-lg shadow-white  h-[450px] md:h-[550px] "
+              />
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ function Mainpages() {
               KEGIATAN REMAJA
             </h1>
           </div>
-          <div className="grid grid-cols-1 justify-items-center items-center pt-2">
+          {/* <div className="grid grid-cols-1 justify-items-center items-center pt-2">
             <img
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
@@ -82,7 +82,7 @@ function Mainpages() {
               src={Lebaran}
               alt="Lebaran Bersama Generus"
             />
-          </div>
+          </div> */}
           <div className="main grid md:grid-cols-4 grid-cols-1 items-center gap-10 pt-10">
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
               <img

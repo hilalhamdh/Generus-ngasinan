@@ -13,19 +13,6 @@ import { useNavigate } from "react-router-dom";
 import Talita from "/images/talita.jpg";
 import Bazar from "/images/bazar.jpg";
 import Umbul from "/images/umbull.jpg";
-// const cartImage = [
-//   {
-//     id: 4,
-//     image: "/images/4.jpg",
-//     title: "Lomba 17 Agustus 2024",
-//     description: `  Untuk memeriahkan hari kemerdekaan indonesia, kami dari
-//                     caberawit ngasinan mengadakan berbagai macam lomba, salah
-//                     satu contohnhya yaitu lomba makan kerupu, lomba memindahkan
-//                     air, lomba cerdas cermat dan lomba canto cething. setiap
-//                     lomba memiliki hadiah yang spesiallah pokoknya.`,
-//     calender: "17 Agustus 2024",
-//   },
-// ];
 
 function Homepages() {
   useEffect(() => {
@@ -68,7 +55,7 @@ function Homepages() {
               </p>
               <a
                 href="#"
-                className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full"
+                className="bg-sky-400 hover:bg-sky-500 transition-all py-1 px-2 text-xs  text-white shadow rounded-lg"
               >
                 Tentang Kami<i className="ri-eye-line ms-1"></i>
               </a>
@@ -231,7 +218,6 @@ function Homepages() {
               </div>
             </div>
           </div>
-          ,
         </div>
         <Contactpages />
         <Cardpages />

@@ -6,13 +6,6 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-// import Zuhal from "/images/19.jpg";
-// import Talita from "/images/A.jpg";
-// import Kika from "/images/KIKA.jpg";
-// import Yuan from "/images/YUAN.jpg";
-
-// import Hilal from "/images/hilall.jpg";
-
 import Footer from "../component/Footer";
 const foto = [
   {
