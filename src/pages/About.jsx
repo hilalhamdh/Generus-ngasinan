@@ -14,7 +14,7 @@ function About() {
             ABOUT US
           </h1>
           <div className="main items-center justify-items-center pt-10 ">
-            <h1 className="text-center text-3xl ">
+            <h1 className="text-center font-semibold text-lg ">
               TPA BAABUL JANNAH KELOMPOK NGASINAN
             </h1>
             <p className="text-justify md:text-center text-sm pt-5 md:px-16">
