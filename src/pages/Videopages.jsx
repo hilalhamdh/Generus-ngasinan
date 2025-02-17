@@ -6,7 +6,7 @@ function Videopages() {
   return (
     <>
       <Navbar />
-      <div className="videopages  pt-32 bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
+      <div className="videopages bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
         <div className="Container mx-auto  py-5 items-center justify-items-center">
           <div className=" md:w-[1515px] w-[380px] md:h-24 h-16  shadow-white rounded-lg ">
             <h1 className=" items-center md:pt-9 pt-5 pb-4 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">
@@ -14,7 +14,7 @@ function Videopages() {
             </h1>
           </div>
           <div className=" pt-1 grid md:grid-cols-2 grid-cols-1  justify-content-center items-center md:gap-2 gap-1  ">
-            <div className="flex box items-center justify-items-center bg-white h-[355px] w-[390px] md:w-[650px] px-2 pb-4 ">
+            <div className="flex box items-center justify-items-center bg-white h-[355px] w-[380px] md:w-[650px] px-2 pb-4 ">
               <ReactPlayer
                 url=" https://youtu.be/EXTbSRj_dz0?si=efT8i5BxIsLAiCx_"
                 className="w-full h-[300px] max-w-full pt-4  "
