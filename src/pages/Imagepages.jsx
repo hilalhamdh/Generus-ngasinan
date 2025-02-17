@@ -296,7 +296,7 @@ function Imagepages() {
         <div className="container mx-auto px-4 py-2 items-center justify-items-center">
           <div className=" md:w-[1505px] w-[380px] md:h-24 h-16   shadow-white rounded-lg ">
             <h1 className="items-center md:pt-9 pb-4 pt-3 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">
-              FOTO - FOTO GENERUS NGASINAN
+              FOTO - FOTO GENERUS
             </h1>
           </div>
 
