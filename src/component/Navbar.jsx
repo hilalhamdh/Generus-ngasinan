@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Logo from "/images/logo.jpg";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -31,9 +32,10 @@ function Navbar() {
       <div className={`navbar fixed w-full translate-all ${scrollActive}`}>
         <div className="container mx-auto px-4 ">
           <div className="navbar-box flex items-center justify-between">
-            <div className="logo">
-              <h1 className="text-sm md:text-2xl font-bold">
-                GENERUS <br></br> NGASINAN
+            <div className="logo flex grid-cols-2 gap-2 items-center">
+              <img src={Logo} className="w-auto h-8 rounded-full" />
+              <h1 className="text-sm items-center md:text-2xl font-bold">
+                GENERUS NGASINAN
               </h1>
             </div>
             <ul
@@ -108,7 +110,7 @@ function Navbar() {
             <div className="social flex  items-center gap-2">
               <a
                 href="https://www.instagram.com/generusngasinan_/profilecard/?igsh=c2lkYjQ2MmcwNWx3"
-                className=" bg-sky-400 text-center w-[120px] py-1 rounded-lg text-white font-semibold hover:bg-sky-400 translate-all"
+                className=" bg-sky-400 text-center w-[80px] py-1 rounded-lg text-white text-[10px] hover:bg-sky-400 translate-all"
               >
                 Social Media
               </a>
