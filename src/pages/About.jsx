@@ -29,17 +29,17 @@ function About() {
 
             <div className="image grid grid-cols-1 md:grid-cols-2 gap-1 pt-5  md:px-10">
               <div className="">
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" data-aos-duration="1000">
                   <img
-                    src={About1}
+                    src={About2}
                     className=" w-full h-full md:h-[600px] rounded-sm"
                   />
                 </div>
               </div>
               <div>
-                <div data-aos="fade-left">
+                <div data-aos="fade-left" data-aos-duration="1000">
                   <img
-                    src={About2}
+                    src={About1}
                     className="w-full h-full md:h-[600px] rounded-sm"
                   />
                 </div>
