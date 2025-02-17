@@ -33,7 +33,7 @@ function Navbar() {
           <div className="navbar-box flex items-center justify-between">
             <div className="logo">
               <h1 className="text-sm md:text-2xl font-bold">
-                GENERUS NGASINAN
+                GENERUS <br></br> NGASINAN
               </h1>
             </div>
             <ul
