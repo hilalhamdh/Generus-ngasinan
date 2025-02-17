@@ -12,22 +12,20 @@ import Dita from "/images/53.jpg";
 import { useNavigate } from "react-router-dom";
 import Talita from "/images/talita.jpg";
 import Bazar from "/images/bazar.jpg";
-
-// import CarouselPages from "../compo/Carouselpages";
-
-const cartImage = [
-  {
-    id: 4,
-    image: "/images/4.jpg",
-    title: "Lomba 17 Agustus 2024",
-    description: `  Untuk memeriahkan hari kemerdekaan indonesia, kami dari
-                    caberawit ngasinan mengadakan berbagai macam lomba, salah
-                    satu contohnhya yaitu lomba makan kerupu, lomba memindahkan
-                    air, lomba cerdas cermat dan lomba canto cething. setiap
-                    lomba memiliki hadiah yang spesiallah pokoknya.`,
-    calender: "17 Agustus 2024",
-  },
-];
+import Umbul from "/images/umbull.jpg";
+// const cartImage = [
+//   {
+//     id: 4,
+//     image: "/images/4.jpg",
+//     title: "Lomba 17 Agustus 2024",
+//     description: `  Untuk memeriahkan hari kemerdekaan indonesia, kami dari
+//                     caberawit ngasinan mengadakan berbagai macam lomba, salah
+//                     satu contohnhya yaitu lomba makan kerupu, lomba memindahkan
+//                     air, lomba cerdas cermat dan lomba canto cething. setiap
+//                     lomba memiliki hadiah yang spesiallah pokoknya.`,
+//     calender: "17 Agustus 2024",
+//   },
+// ];
 
 function Homepages() {
   useEffect(() => {
@@ -174,7 +172,7 @@ function Homepages() {
 
               <div className="px-6 py-4 ">
                 <div className="font-bold text-xl mb-2">
-                  Remaja Ngasinan Jualan Mie Gacoan Diacara Bazar
+                  Remaja Ngasinan Berjualan Mie Gacoan Di Bazar
                 </div>
                 <p className="text-gray-700 text-base text-justify line-clamp-3  ">
                   Dengan kekompakan dan kesemangatan remaja kelompok Ngasinan,
@@ -205,12 +203,12 @@ function Homepages() {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 className="w-full h-[300px]"
-                src=""
+                src={Umbul}
               />
 
               <div className="px-6 py-4 ">
                 <div className="font-bold text-xl mb-2">
-                  Liburan Ke Umbul Pelem
+                  Liburan Caberawit Volt II Ke Umbul Pelem
                 </div>
                 <p className="text-gray-700 text-base text-justify line-clamp-3  ">
                   Matahari terbenam, tapi kenangan tak akan pernah pudar``
