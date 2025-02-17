@@ -32,7 +32,9 @@ function Navbar() {
         <div className="container mx-auto px-4 ">
           <div className="navbar-box flex items-center justify-between">
             <div className="logo">
-              <h1 className=" text-2xl font-bold">GENERUS NGASINAN</h1>
+              <h1 className="text-sm md:text-2xl font-bold">
+                GENERUS NGASINAN
+              </h1>
             </div>
             <ul
               className={`flex lg:gap-12 md:static md:flex-row md:shadow-none md:py-5 md:bg-transparent md:w-auto md:h-full md:translate-y-0 md:text-black md:p-0 md:m-0 gap-8 md:transition-none fixed ${menuActive} top-1/2 
