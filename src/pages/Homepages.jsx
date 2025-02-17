@@ -32,9 +32,9 @@ function Homepages() {
               <h1
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="lg:text-5xl/tight text-3xl font-medium mb-3 text-center"
+                className="lg:text-5xl/tight text-2xl font-bold mb-3 text-center"
               >
-                Generus Ngasinan
+                NGASINAN GENERATION
               </h1>
               <p
                 data-aos="fade-right"
