@@ -101,10 +101,10 @@ function Homepages() {
                   dihidup ini tidak akan pudar
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-orange-600 border-b-4">
                 <a
                   href
-                  className="text-red-800 "
+                  className="text-green-800 "
                   onClick={() => navigate("/berita4")}
                 >
                   Baca Selengkapnya...
@@ -134,10 +134,10 @@ function Homepages() {
                   sangat tinggi
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-orange-600 border-b-4">
                 <a
                   href
-                  className="text-red-800"
+                  className="text-green-800"
                   onClick={() => navigate("/berita2")}
                 >
                   Baca Selengkapnya...
@@ -167,10 +167,10 @@ function Homepages() {
                   untuk mengikuti ajang lomba tahunan ini
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-orange-600 border-b-4">
                 <a
                   href
-                  className="text-red-800"
+                  className="text-green-800"
                   onClick={() => navigate("/berita1")}
                 >
                   Baca Selengkapnya...
@@ -203,10 +203,10 @@ function Homepages() {
                   semakin kompak dan rukun.Aaamiiinnn...
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-orange-600 border-b-4">
                 <a
                   href
-                  className="text-red-800"
+                  className="text-green-800"
                   onClick={() => navigate("/berita3")}
                 >
                   Baca Selengkapnya...
