@@ -101,13 +101,13 @@ function Homepages() {
                   dihidup ini tidak akan pudar
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
                 <a
                   href
-                  className="hover:text-green-300"
+                  className="text-red-800 "
                   onClick={() => navigate("/berita4")}
                 >
-                  Baca Selengkapnya
+                  Baca Selengkapnya...
                 </a>
               </div>
               <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
@@ -134,13 +134,13 @@ function Homepages() {
                   sangat tinggi
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
                 <a
                   href
-                  className="hover:text-green-300"
+                  className="text-red-800"
                   onClick={() => navigate("/berita2")}
                 >
-                  Baca Selengkapnya
+                  Baca Selengkapnya...
                 </a>
               </div>
               <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
@@ -167,13 +167,13 @@ function Homepages() {
                   untuk mengikuti ajang lomba tahunan ini
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
                 <a
                   href
-                  className="hover:text-green-300"
+                  className="text-red-800"
                   onClick={() => navigate("/berita1")}
                 >
-                  Baca Selengkapnya
+                  Baca Selengkapnya...
                 </a>
               </div>
               <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
@@ -203,13 +203,13 @@ function Homepages() {
                   semakin kompak dan rukun.Aaamiiinnn...
                 </p>
               </div>
-              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-slate-300 border-b-4">
+              <div className="text-sm font-semibold text-start text-gray-700  mb-2 ml-5 mr-5 border-sky-300 border-b-4">
                 <a
                   href
-                  className="hover:text-green-300"
+                  className="text-red-800"
                   onClick={() => navigate("/berita3")}
                 >
-                  Baca Selengkapnya
+                  Baca Selengkapnya...
                 </a>
               </div>
               <div className="text-sm font-semibold text-end text-gray-700  mb-2 mr-5  ">
