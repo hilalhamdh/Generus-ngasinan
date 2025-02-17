@@ -1,6 +1,6 @@
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
-
+import Umbul from "/images/umbull.jpg";
 import { useNavigate } from "react-router-dom";
 
 function Berita4() {
@@ -15,7 +15,7 @@ function Berita4() {
               Liburan Ke Umbul Pelem
             </h3>
             <img
-              src=""
+              src={Umbul}
               alt="Umbul Pelem"
               className="size-11/12 md:size-10/12 h-[400px] rounded-md md:h-[500px] mx-auto pt-1"
             />

@@ -35,14 +35,16 @@ const Berita3 = () => {
                   Dalam acara bazar ini remaja ngasinan berjualan dengan
                   berbagai menu yang enak-enak dan kreatif, diantara menunya
                   yaitu ada Mie Gacoan, Siomay, Es Kul-kul, Es Coklat dan
-                  tentunya tidak ketinggalan Es teh. Adapun tujuan dari
-                  penyelanggaraan ini bagi kami adalah untuk mempererat
-                  kekompakan dan kesemangatan remaja Ngasinan.sehingga
-                  kedepannya semakin semangat dalam ibadahnya kepada alloh.
-                  Semoga kedepannya semakin kompak, rukun dan menjadi anak-anak
-                  yang sholih-sholiha serta lancar rezekinya sukses dunia dan
-                  akhirotnya, etss tidak lupa mendapat jodoh yang barokah
-                  tentunya .Aaamiiinnn...
+                  tentunya tidak ketinggalan Es teh.
+                  <br></br>
+                  <br></br>
+                  Adapun tujuan dari penyelanggaraan ini bagi kami adalah untuk
+                  mempererat kekompakan dan kesemangatan remaja
+                  Ngasinan.sehingga kedepannya semakin semangat dalam ibadahnya
+                  kepada alloh. Semoga kedepannya semakin kompak, rukun dan
+                  menjadi anak-anak yang sholih-sholiha serta lancar rezekinya
+                  sukses dunia dan akhirotnya, etss tidak lupa mendapat jodoh
+                  yang barokah tentunya .Aaamiiinnn...
                 </p>
               </div>
 
