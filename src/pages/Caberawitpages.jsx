@@ -70,9 +70,45 @@ const foto = [
   },
   {
     id: 11,
-    image: "",
-    name: "Atira",
+    image: "/images/kinanti.jpg",
+    name: "Kianti",
     kelas: "Caberawit",
+  },
+  {
+    id: 12,
+    image: "/images/arsyaka.jpg",
+    name: "Arsyaka",
+    kelas: "Caberawit",
+  },
+  {
+    id: 13,
+    image: "/images/arfa.jpg",
+    name: "Zahira",
+    kelas: "Paud",
+  },
+  {
+    id: 14,
+    image: "/images/arfa.jpg",
+    name: "Gavin",
+    kelas: "Caberawit",
+  },
+  {
+    id: 15,
+    image: "/images/arfa.jpg",
+    name: "Arfa Devano Novi",
+    kelas: "Bayi",
+  },
+  {
+    id: 16,
+    image: "/images/19.jpg",
+    name: "Ananda Zuhal",
+    kelas: "Pra-remaja",
+  },
+  {
+    id: 17,
+    image: "/images/syifa.jpg",
+    name: "Asyifa Surono",
+    kelas: "Pra-remaja",
   },
 ];
 
@@ -80,7 +116,7 @@ const Caberawitpages = () => {
   return (
     <>
       <Navbar />
-      <div className="caberawitpages pt-32 bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
+      <div className="caberawitpages pt-36 bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
         <div className="container mx-auto px-4 md:py-2 py-1 items-center justify-items-center">
           <div className=" md:w-[1450px] w-[350px] md:h-24 h-16   shadow-white rounded-lg ">
             <h1 className=" items-center md:pt-9 pt-5 pb-4 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">

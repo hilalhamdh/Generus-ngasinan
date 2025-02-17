@@ -1,5 +1,8 @@
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const photo = [
   {
@@ -289,11 +292,18 @@ const photo = [
 ];
 
 function Imagepages() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />
       <div className="mainpage pt-32 bg-gradient-to-r from-rose-100 to-sky-300 to-90% ">
-        <div className="container mx-auto px-4 py-2 items-center justify-items-center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          className=" container mx-auto px-4 py-2 items-center justify-items-center"
+        >
           <div className=" md:w-[1505px] w-[380px] md:h-24 h-16   shadow-white rounded-lg ">
             <h1 className="items-center md:pt-9 pb-4 pt-3 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">
               FOTO - FOTO GENERUS

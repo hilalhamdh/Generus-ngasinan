@@ -1,13 +1,23 @@
 import ReactPlayer from "react-player";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Videopages() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />
       <div className="videopages pt-20 bg-gradient-to-r from-rose-100 to-sky-300 to-90%">
-        <div className="Container mx-auto  py-5 items-center justify-items-center">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          className="Container mx-auto  py-5 items-center justify-items-center"
+        >
           <div className=" md:w-[1515px] w-[380px] md:h-24 h-16  shadow-white rounded-lg ">
             <h1 className=" items-center md:pt-9 pt-5 pb-4 font-semibold text-center md:text-3xl text-xl  shadow-lg shadow-red-200  ">
               VIDEO KEGIATAN GENERUS
