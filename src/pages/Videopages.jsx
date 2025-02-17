@@ -14,7 +14,7 @@ function Videopages() {
             </h1>
           </div>
           <div className=" pt-1 grid md:grid-cols-2 grid-cols-1  justify-content-center items-center md:gap-2 gap-1  ">
-            <div className="flex box items-center justify-items-center bg-white h-[355px] w-[380px] md:w-[650px] px-2 pb-4 ">
+            <div className="flex box items-center justify-items-center bg-white h-[355px] w-[370px] md:w-[650px] px-2 pb-4 ">
               <ReactPlayer
                 url=" https://youtu.be/EXTbSRj_dz0?si=efT8i5BxIsLAiCx_"
                 className="w-full h-[300px] max-w-full pt-4  "
