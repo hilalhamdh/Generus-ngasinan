@@ -45,7 +45,7 @@ function Homepages() {
               <h1
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="lg:text-5xl/tight text-3xl font-medium mb-6 "
+                className="lg:text-5xl/tight text-3xl font-medium mb-3 text-center"
               >
                 Generus Ngasinan
               </h1>
@@ -64,8 +64,7 @@ function Homepages() {
                 className="text-base text-justify mb-7  "
               >
                 Halaman ini merupakan cerita kenangan perjalanan Mas Hilal
-                sebagai Mubaligh Tugasan di Kelompok Ngasinan Priode Februari
-                2024 - Februari 2025
+                sebagai Mubaligh Tugasan di Kelompok Ngasinan Priode 2024 - 2025
               </p>
               <a
                 href="#"
